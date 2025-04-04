@@ -12,3 +12,11 @@ docker run -d -p 8080:8080 fbapi:latest
 ```bash
 docker run -d -p 8080:8080 -e PROXY="<proxy_url>" fbapi:latest
 ```
+
+#### Available endpoints
+```python
+/facebooks/ads?query=shoes
+```
+```python
+/tiktok/ads?query=gadgets
+```
